@@ -1,60 +1,60 @@
 # Chef Claude 🧑‍🍳✨
 
-[![Feito com React](https://img.shields.io/badge/feito%20com-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Built with React](https://img.shields.io/badge/built%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Powered by Vite](https://img.shields.io/badge/powered%20by-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Status do Projeto](https://img.shields.io/badge/status-completo-brightgreen?style=for-the-badge)]()
+[![Project Status](https://img.shields.io/badge/status-complete-brightgreen?style=for-the-badge)]()
 
-Um gerador de receitas inteligente construído com **React** e **Vite**, utilizando a **Hugging Face Inference API**.  
-Baseado nos ingredientes fornecidos pelo utilizador, gera uma receita personalizada formatada em Markdown!
+An intelligent recipe generator built with **React** and **Vite**, using the **Hugging Face Inference API**.  
+Based on the user's provided ingredients, it generates a personalized recipe formatted in Markdown!
 
-## 🚀 Tecnologias usadas
+## 🚀 Technologies Used
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Hugging Face Inference API](https://huggingface.co/inference-api)
 - JavaScript (ES6+)
 - HTML5 & CSS3
 
-## 🎯 Funcionalidades
-- ➕ Adicionar ingredientes manualmente.
-- 🍲 Gerar receitas baseadas nos ingredientes escolhidos.
-- 🧹 Interface limpa, responsiva e moderna.
-- 📄 Saída formatada em **Markdown** para melhor visualização.
-- 🔐 Gestão segura de chaves de API através de variáveis de ambiente.
+## 🎯 Features
+- ➕ Add ingredients manually.
+- 🍲 Generate recipes based on selected ingredients.
+- 🧹 Clean, responsive, and modern interface.
+- 📄 Output formatted in **Markdown** for better presentation.
+- 🔐 Secure API key management using environment variables.
 
-## 📸 Captura de Ecrã
-![Chef Claude Screenshot](./images/chef-claude-print.png)  
+## 📸 Screenshot
+![Chef Claude Screenshot](./images/chef-claude-print.png)
 
-## ⚙️ Como correr localmente
+## ⚙️ How to Run Locally
 ```bash
 git clone https://github.com/GuilhermeSilvaDev/chef-claude.git
 cd chef-claude
 npm install
-# Criar ficheiro .env com a tua Hugging Face token
+# Create a .env file with your Hugging Face token
 # VITE_HF_ACCESS_TOKEN=your_huggingface_token
 npm run dev
 
-⚠️ Notas de Segurança
+⚠️ Security Notes
 
-🚨 Nunca partilhes o ficheiro .env ou as tuas chaves de API!
-Este projeto já contém um .gitignore para proteger as variáveis de ambiente.
-Para deploy público (Netlify, Vercel, etc.), é recomendado usar um backend para proteger as chaves.
-📚 Aprendizagens neste projeto
+🚨 Never share your .env file or your API keys!
+This project already includes a .gitignore to protect sensitive environment variables.
+For public deployments (Netlify, Vercel, etc.), it is recommended to use a backend server to protect your keys.
+📚 What I Learned From This Project
 
-    Criação de componentes React funcionais.
+    Building functional React components.
 
-    Gerir estados (useState) e eventos em formulários.
+    Managing state (useState) and handling form events.
 
-    Integração de API externa (Hugging Face Inference).
+    Integrating external APIs (Hugging Face Inference).
 
-    Configuração de variáveis de ambiente no Vite (import.meta.env).
+    Configuring environment variables in Vite (import.meta.env).
 
-    Boas práticas de segurança em projetos React.
+    Applying security best practices in React projects.
 
-📄 Licença
+📄 License
 
-Projeto criado como parte do curso React - Scrimba.
-Uso livre para fins educacionais e pessoais.
-👨‍💻 Autor
+Project created as part of the React Course at Scrimba.
+Free to use for educational and personal purposes.
+👨‍💻 Author
 
 Guilherme Silva
 GitHub
