@@ -22,7 +22,7 @@ Baseado nos ingredientes fornecidos pelo utilizador, gera uma receita personaliz
 - 🔐 Gestão segura de chaves de API através de variáveis de ambiente.
 
 ## 📸 Captura de Ecrã
-![Chef Claude Screenshot](./images/chef-claude-png.png)  
+![Chef Claude Screenshot](./images/chef-claude-print.png)  
 
 ## ⚙️ Como correr localmente
 ```bash
